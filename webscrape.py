@@ -7,12 +7,11 @@ import pandas as pd
 import time
 import os
 
-# Configure Chrome options to ignore SSL certificate errors
+# Configure browser options to ignore SSL certificate errors
+#use the browser of your choice
 options = webdriver.EdgeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
-
-
 
 driver = webdriver.Edge(options=options)
 
