@@ -11,7 +11,7 @@ import os
 options = webdriver.EdgeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
-path = "D:/chromedriver.exe"
+
 
 
 driver = webdriver.Edge(options=options)
